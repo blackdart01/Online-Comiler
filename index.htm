@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Discussion</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="langselectfield">
+            <select name="lang" id="select">
+                <option value="7">C</option>
+                <option value="77">CPP</option>
+                <option value="0">Python</option>
+                <option value="8">Java</option>
+                <option value="4">JavaScript</option>
+            </select>
+        </div>
+        <div id="codescreen">
+            <textarea name="codearea" id="codearea" placeholder="Write your code"></textarea>
+        </div>
+        <button type="button" id="compile">Compile</button>
+        <div id="outputscreen">
+            <span id="outputtext">OUTPUT:</span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
